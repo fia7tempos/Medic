@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource auth="Container" 
+		driverClassName="oracle.jdbc.OracleDriver"
+		maxActive="20" 
+		maxWait="-1" 
+		name="OracleJNDI" 
+		password="1234"
+		type="javax.sql.DataSource" 
+		url="jdbc:oracle:thin:@70.12.110.57:1521:xe"
+		username="medic" />
+</Context>
